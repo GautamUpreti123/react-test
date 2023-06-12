@@ -1,0 +1,66 @@
+@media only screen and (max-width: 600px) {
+    .card-body-style{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-style{
+        width: 100%;
+    }
+
+    .mobile-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .btn-container-style {
+        margin-top: 5px !important;
+    }
+}
+
+ @media only screen and (min-width: 600px){
+    .card-body-style{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mobile-container{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.card-img-style{
+    text-align: right;
+    padding: 10px;
+}
+
+.card-title-style{
+    color: #3e9cc3;
+    font-weight: 600;
+}
+
+.card-text-style{
+    color: #707070;
+    font-weight: 500;
+}
+
+.btn-container-style{
+    text-align: center;
+    margin: auto 0;
+}
+
+.btn-style{
+    background-color: #1683b3 !important;
+    line-height: 1.5 !important;
+}
+
+.modal-style{
+    height: 35px;
+    width: 35px;
+    margin: auto;
+}
+
+.modal-span {
+    margin-left: 10px;
+}
